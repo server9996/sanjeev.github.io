@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#head {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50px;
+    font-family: Brush Script MT;
+    font-size: 7vw;
+    text-shadow: 2px 1px 2px gray;
+}
+
+#par {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 130px;
+    font-family: Brush Script MT;
+    font-size: 4vw;
+    text-shadow: 2px 1px 2px gray;
+}
+
+.mou {
+    position: absolute;
+    width: 1200px;
+    top: 120px;
+}
+
+.mou {
+    width: 100%;
+}
+
+.cloud {
+    position: absolute;
+    align-items: center;
+    width: 120px;
+    left: 30px;
+    top: 10px;
+}
+
+.clouds {
+    position: absolute;
+    width: 200px;
+    right: 30px;
+    top: 40px;
+}
+
+
+/*Anglia code */
+
+.cod1 {
+    position: absolute;
+    border-radius: 100px;
+    width: 200px;
+    height: 190px;
+    top: 600px;
+    left: 500px;
+}
+
+#srch {
+    position: absolute;
+    right: 25px;
+    top: 9px;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    height: 23px;
+    background-color: #66DE93;
+    font-family: Brush Script MT;
+    font-size: 30px;
+    transition: width 2s;
+}
+
+#srch:hover {
+    width: 170px;
+}
+
+.dd {
+    position: absolute;
+    top: 790px;
+    left: 450px;
+    font-size: 30px;
+    font-family: Candara;
+}
+
+.dd p {
+    position: relative;
+    right: 200px;
+    text-align: center;
+    font-family: Candara;
+}
+
+.ftr {
+    position: relative;
+    width: 1204px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.226);
+    top: 1000px;
+    font-family: Candara;
+}
+
+.ftr a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    top: 30px;
+    font-size: 20px;
+    margin: 110px;
+    font-family: Candara;
+}
+
+.ftr p {
+    position: absolute;
+    color: white;
+    top: 78px;
+    left: 500px;
+    font-family: Candara;
+    font-size: 20px;
+}
